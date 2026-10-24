@@ -1,0 +1,29 @@
+# Data and private files
+*.csv
+!results/*.csv
+*.xlsx
+*.xls
+*.zip
+*.7z
+*.rar
+
+# Model weights / serialized estimators
+*.pkl
+*.joblib
+*.keras
+*.h5
+*.ckpt
+*.weights.h5
+
+# Local environments and notebook artifacts
+.env
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Generated figures and temporary outputs
+outputs/
+figures/generated/
